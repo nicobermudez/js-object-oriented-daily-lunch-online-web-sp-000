@@ -35,7 +35,7 @@ class Neighborhood {
     store.neighborhoods.push(this)
   }
   customers() {
-    store.customers.filter(function(customer) {
+    return store.customers.filter(function(customer) {
       return customer.neighborhoodId === this.id
     })
   }

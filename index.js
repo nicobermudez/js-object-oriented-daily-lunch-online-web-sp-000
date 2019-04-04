@@ -6,13 +6,13 @@ let customerId = 0
 let neighborhoodId = 0
 
 class Meal {
-  constructor(name) {
+  constructor(title, price) {
     this.name = name
     this.id = mealId++
     store.meals.push(this)
   }
   newMeal(titel, price) {
-
+    
   }
 }
 

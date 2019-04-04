@@ -15,17 +15,20 @@ class Meal {
 class Delivery {
   constructor(name) {
       this.name = name
+      this.id = deliveryId++
   }
 }
 
 class Customer {
   constructor(name) {
     this.name = name
+    this.id = customerId++
   }
 }
 
 class Neighborhood {
   constructor(name) {
     this.name = name
+    this.id = neighborhoodId++
   }
 }

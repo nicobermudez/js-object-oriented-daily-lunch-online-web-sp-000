@@ -40,17 +40,17 @@ class Delivery {
   meal() {
     return store.meals.find(function(meal) {
       return meal.id === this.mealId
-    })
+    }.bind(this))
   }
   neighborhood() {
     return store.neighborhood.find(function(neighborhood) {
       return neighborhood.id ==== this.neighborhoodId
-    })
+    }.bind(this))
   }
   customer() {
     return store.customer.find(function(customer) {
       return customer.id === this.customerId
-    })
+    }.bind(this))
   }
 
 }

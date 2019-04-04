@@ -13,7 +13,9 @@ class Meal {
     store.meals.push(this)
   }
   static byPrice() {
-    return store.meals.sort((a, b) => a.price < b.price);
+    return store.meals.sort((function(a, b)) {
+      return a.price - b.price
+    })
   }
 }
 

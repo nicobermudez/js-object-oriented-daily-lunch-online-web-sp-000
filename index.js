@@ -8,6 +8,7 @@ let neighborhoodId = 0
 class Meal {
   constructor(name) {
     this.name = name
+    this.id = mealId++
   }
 }
 

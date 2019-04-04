@@ -13,7 +13,7 @@ class Meal {
     store.meals.push(this)
   }
   static byPrice() {
-    return store.meals.sort((a,b) function() {
+    return store.meals.sort(function(a, b) {
       a.price.localCompare(b.price)
     })
   }

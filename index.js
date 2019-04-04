@@ -12,7 +12,7 @@ class Meal {
     store.meals.push(this)
   }
   newMeal(titel, price) {
-    
+
   }
 }
 

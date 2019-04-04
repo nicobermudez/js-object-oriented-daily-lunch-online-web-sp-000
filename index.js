@@ -30,9 +30,10 @@ class Neighborhood {
 }
 
 class Delivery {
-  constructor(name) {
-    this.name = name
+  constructor(meal, neighborhood, customer) {
     this.id = deliveryId++
+    
     store.deliveries.push(this)
   }
+  
 }

@@ -12,7 +12,11 @@ class Meal {
     this.id = mealId++
     store.meals.push(this)
   }
-
+  static byPrice() {
+    return store.meals.sort((a,b) function() {
+      a.localCompare(b)
+    })
+  }
 }
 
 class Customer {

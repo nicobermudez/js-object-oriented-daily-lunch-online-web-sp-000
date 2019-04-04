@@ -14,7 +14,7 @@ class Meal {
   }
   static byPrice() {
     return store.meals.sort(function(a, b) {
-      a.localeCompare(b)
+      a.price < b.price
     })
   }
 }

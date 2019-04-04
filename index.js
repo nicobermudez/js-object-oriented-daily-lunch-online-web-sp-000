@@ -34,6 +34,11 @@ class Neighborhood {
     this.id = neighborhoodId++
     store.neighborhoods.push(this)
   }
+  customers() {
+    store.customers.filter(function(customer) {
+      return customer
+    })
+  }
 }
 
 class Delivery {

@@ -42,5 +42,10 @@ class Delivery {
       return meal.id === this.mealId
     })
   }
+  neighborhood() {
+    return store.neighborhood.find(function(neighborhood) {
+      return neighborhood.id ==== this.neighborhoodId
+    })
+  }
 
 }

@@ -35,5 +35,5 @@ class Delivery {
     this.mealId = mealId
     store.deliveries.push(this)
   }
-  
+
 }

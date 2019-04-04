@@ -7,13 +7,12 @@ let neighborhoodId = 0
 
 class Meal {
   constructor(title, price) {
-    this.name = name
+    this.title = title
+    this.price = price
     this.id = mealId++
     store.meals.push(this)
   }
-  newMeal(titel, price) {
 
-  }
 }
 
 class Customer {

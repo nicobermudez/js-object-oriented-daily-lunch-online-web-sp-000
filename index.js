@@ -47,5 +47,10 @@ class Delivery {
       return neighborhood.id ==== this.neighborhoodId
     })
   }
+  customer() {
+    return store.customer.find(function(customer) {
+      return customer.id === this.customerId
+    })
+  }
 
 }

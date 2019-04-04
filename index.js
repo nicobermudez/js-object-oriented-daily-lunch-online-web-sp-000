@@ -11,6 +11,9 @@ class Meal {
     this.id = mealId++
     store.meals.push(this)
   }
+  newMeal(titel, price) {
+    
+  }
 }
 
 class Customer {

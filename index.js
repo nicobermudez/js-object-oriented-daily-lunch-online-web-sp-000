@@ -39,7 +39,7 @@ class Delivery {
   }
   meal() {
     return store.meals.find(function(meal) {
-      return meal.id = this.mealId
+      return meal.id === this.mealId
     })
   }
 
